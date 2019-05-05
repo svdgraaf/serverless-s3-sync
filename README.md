@@ -32,6 +32,8 @@ custom:
       localDir: dist/assets # required
     - bucketName: my-other-site
       localDir: path/to/other-site
+      acl: public-read # optional
+      followSymlinks: true # optional
 
 resources:
   Resources:
